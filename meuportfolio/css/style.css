@@ -1,0 +1,92 @@
+:root {
+  --bg-main:        #FAFAFA;
+  --text-main:      #222222;  
+  --heading-color:  #176B6B; 
+  --cta-color:      #179C8B;
+  --card-bg:        #FFFFFF;  
+  --card-shadow:    #ECECEC; 
+}
+
+body {
+    background-color: wheat;
+    color : var(--text-main);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin-left: 18rem;
+    margin-right: 20rem;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, nav a {
+    color: var(--heading-color);
+}
+
+header {
+    margin-top: 8rem;
+    margin-left: 18rem;
+    margin-right: 20rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+button {
+    background-color: var(--cta-color);
+    color: #fff;
+}
+
+main {
+    text-align: left;
+    padding-left: 18rem;
+    padding-right: 25rem;
+}
+#Sobre {
+    background-color: white;
+    padding-left: 18rem;
+    padding-right: 25rem;
+    margin-left: -18rem;
+    margin-right: -25rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 8rem;
+  height: 15rem;
+  background-color: var(--card-bg);
+  box-shadow: 0 5px 8px var(--text-main);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+#Contato {
+    background-color: white;
+    padding-left: 18rem;
+    padding-right: 25rem;
+    margin-left: -18rem;
+    margin-right: -25rem;
+}
+
+footer {
+    margin-left: 18rem;
+    margin-right: 20rem;
+}
